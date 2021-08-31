@@ -1,3 +1,5 @@
+hostname: sydk3os01
+
 k3os:
   data_sources:
   - aws
