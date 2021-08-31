@@ -1,11 +1,13 @@
 k3os:
-  sysctl:
-    kernel.printk: "4 4 1 7"
-    kernel.kptr_restrict: "1"
-  ntp_servers:
-  - 0.us.pool.ntp.org
-  - 1.us.pool.ntp.org
-  password: rancher
+  data_sources:
+  - aws
+  - cdrom
+  modules:
+  - kvm
+  - nvme
+  password: yoursuperpasswordhere
+  token: zsQh822mPWh32423j4jk23h4jdddZInCxVnm0FxLkV
   k3s_args:
-  - server
-  - --disable=traefik
+    - server
+    - --disable
+    - traefik
