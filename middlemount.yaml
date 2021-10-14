@@ -1,4 +1,4 @@
-hostname: mntk3os01
+hostname: mntk3os02
 
 k3os:
   data_sources:
