@@ -1,0 +1,15 @@
+hostname: mntk3os01
+
+k3os:
+  data_sources:
+  - aws
+  - cdrom
+  modules:
+  - kvm
+  - nvme
+  password: P@ssw0rd!@#
+  token: zsQh822mPWh32423j4jk23h4jdddZInCxVnm0FxLkV
+  k3s_args:
+    - server
+    - --disable
+    - traefik
